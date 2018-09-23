@@ -1,0 +1,2248 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Людмила Путятова</LastAuthor>
+  <Created>2018-09-23T15:57:09Z</Created>
+  <LastSaved>2018-09-23T16:01:20Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14020</WindowHeight>
+  <WindowWidth>24940</WindowWidth>
+  <WindowTopX>320</WindowTopX>
+  <WindowTopY>460</WindowTopY>
+  <ActiveSheet>7</ActiveSheet>
+  <HidePivotTableFieldList/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="204" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" x:CharSet="204" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Font ss:FontName="Calibri" x:CharSet="204" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="204" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" x:CharSet="204" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s79">
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:Indent="1"/>
+  </Style>
+  <Style ss:ID="s103">
+   <Font ss:FontName="Calibri" x:CharSet="204" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="prefix.tense">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="5" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:Width="137"/>
+   <Column ss:Width="115"/>
+   <Column ss:Width="64" ss:Span="1"/>
+   <Column ss:Index="5" ss:Width="161"/>
+   <Column ss:Width="166"/>
+   <Row>
+    <Cell><Data ss:Type="String">Количество по полю tense </Data></Cell>
+    <Cell><Data ss:Type="String">Названия столбцов</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Вывод: приставка  &quot;с-&quot; чаще встречается в глаголах будущего времени; приставка &quot;пере-&quot; чаще встречается в глаголах будущего времени. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Названия строк</Data></Cell>
+    <Cell><Data ss:Type="String">будущее</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">Общий итог</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">пере</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">с</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Общий итог</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="prefix.personnumber">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="5" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:Width="136"/>
+   <Column ss:Width="115"/>
+   <Column ss:Width="60" ss:Span="1"/>
+   <Column ss:Index="5" ss:Width="62"/>
+   <Column ss:Width="35"/>
+   <Column ss:Width="64"/>
+   <Row>
+    <Cell><Data ss:Type="String">Количество по полю prefix</Data></Cell>
+    <Cell><Data ss:Type="String">Названия столбцов</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Вывод: приставка &quot;с-&quot; чаще встречается в глаголах ед. ч. м. р.; приставка &quot;пере-&quot; чаще встречается в глаголах ед. ч. м. р.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Названия строк</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч.</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./ж. р.</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./ср. р.</Data></Cell>
+    <Cell><Data ss:Type="String">мн. ч.</Data></Cell>
+    <Cell><Data ss:Type="String">Общий итог</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">пере</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">с</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Общий итог</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="prefix.tense.personnumber">
+  <Table ss:ExpandedColumnCount="21" ss:ExpandedRowCount="14" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:Width="178"/>
+   <Column ss:Width="105"/>
+   <Column ss:Width="130"/>
+   <Column ss:Width="118"/>
+   <Column ss:Width="21"/>
+   <Column ss:Width="64"/>
+   <Column ss:Width="21"/>
+   <Column ss:Width="84"/>
+   <Column ss:Width="105"/>
+   <Column ss:Width="130"/>
+   <Column ss:Width="118"/>
+   <Column ss:Width="21"/>
+   <Column ss:Width="83"/>
+   <Column ss:Width="62"/>
+   <Column ss:Width="86"/>
+   <Column ss:Width="105"/>
+   <Column ss:Width="130"/>
+   <Column ss:Width="118"/>
+   <Column ss:Width="21"/>
+   <Column ss:Width="58"/>
+   <Column ss:Width="64"/>
+   <Row>
+    <Cell><Data ss:Type="String">Количество по полю personnumber</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Вывод: приставка &quot;с-&quot; чаще встречается в глаголах прошедшего времени ед. ч. м. р.; приставка &quot;пере-&quot; чаще встречается в глаголах прошедшего времени ед. ч. м. р.  </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell><Data ss:Type="String">неодушевленный объект</Data></Cell>
+    <Cell><Data ss:Type="String">одушевленный объект</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">Общий итог</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">пере</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ед. ч./ж. р.</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ед. ч./ср. р.</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">мн. ч.</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">с</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ед. ч.</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ед. ч./ж. р.</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ед. ч./ср. р.</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">мн. ч.</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Общий итог</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="prefix.part1">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="5" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:Width="136"/>
+   <Column ss:Width="31"/>
+   <Column ss:Width="48"/>
+   <Column ss:Width="46"/>
+   <Column ss:Width="47"/>
+   <Column ss:Width="21"/>
+   <Column ss:Width="64"/>
+   <Row>
+    <Cell><Data ss:Type="String">Количество по полю prefix</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Вывод: приставка &quot;с-&quot; чаще встречается в глаголах, у которых про субъект действия (кто/что путает) невозможно сказать что-либо конкретное; приставка &quot;пере-&quot; чаще встречается в глаголах, у которых субъектом действия (кто/что путает)  является лицо. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">лицо</Data></Cell>
+    <Cell><Data ss:Type="String">предмет</Data></Cell>
+    <Cell><Data ss:Type="String">процесс</Data></Cell>
+    <Cell><Data ss:Type="String">явление</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">Общий итог</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">пере</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">с</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Общий итог</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>8</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="prefix.part2">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="5" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:Width="136"/>
+   <Column ss:Width="115"/>
+   <Column ss:Width="105"/>
+   <Column ss:Width="130"/>
+   <Column ss:Width="118"/>
+   <Column ss:Width="21"/>
+   <Column ss:Width="64"/>
+   <Row>
+    <Cell><Data ss:Type="String">Количество по полю prefix</Data></Cell>
+    <Cell><Data ss:Type="String">Названия столбцов</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Вывод: приставка &quot;с-&quot; чаще встречается в глаголах, в которых объектом действия (что путают) является абстрактный объект; приставка &quot;пере-&quot; чаще встречается в глаголах, в которых про объект действия (что путают) невозможно сказать что-либо конкретное. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Названия строк</Data></Cell>
+    <Cell><Data ss:Type="String"> абстрактный объект</Data></Cell>
+    <Cell><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell><Data ss:Type="String">неодушевленный объект</Data></Cell>
+    <Cell><Data ss:Type="String">одушевленный объект</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">Общий итог</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">пере</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">с</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Общий итог</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>10</ActiveRow>
+     <ActiveCol>11</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="prefix.part3">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="5" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:Width="166"/>
+   <Column ss:Width="115"/>
+   <Column ss:Width="130"/>
+   <Column ss:Width="118"/>
+   <Column ss:Width="21"/>
+   <Column ss:Width="64"/>
+   <Row>
+    <Cell><Data ss:Type="String">Количество по полю participant3</Data></Cell>
+    <Cell><Data ss:Type="String">Названия столбцов</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Вывод: приставка &quot;с-&quot; чаще встречается в глаголах, в которых про второй объект действия (с кем путают) чаще всего невозможно понять; приставка &quot;пере-&quot; чаще встречается в глаголах, в которых про второй объект действия (с кем путают) чаще всего невозможно понять. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Названия строк</Data></Cell>
+    <Cell><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell><Data ss:Type="String">неодушевленный объект</Data></Cell>
+    <Cell><Data ss:Type="String">одушевленный объект</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">Общий итог</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">пере</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">с</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Общий итог</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="prefix.creation">
+  <Table ss:ExpandedColumnCount="71" ss:ExpandedRowCount="5" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:Width="145"/>
+   <Column ss:Width="32" ss:Span="28"/>
+   <Column ss:Index="31" ss:Width="64"/>
+   <Column ss:Width="32" ss:Span="10"/>
+   <Column ss:Index="43" ss:Width="35"/>
+   <Column ss:Width="64"/>
+   <Column ss:Width="13"/>
+   <Column ss:Width="56"/>
+   <Column ss:Width="45"/>
+   <Column ss:Width="13"/>
+   <Column ss:Width="56"/>
+   <Column ss:Width="45"/>
+   <Column ss:Width="13"/>
+   <Column ss:Width="56"/>
+   <Column ss:Width="45"/>
+   <Column ss:Width="13"/>
+   <Column ss:Width="56"/>
+   <Column ss:Width="45"/>
+   <Column ss:Width="56"/>
+   <Column ss:Width="45"/>
+   <Column ss:Width="56"/>
+   <Column ss:Width="45"/>
+   <Column ss:Width="13"/>
+   <Column ss:Width="56"/>
+   <Column ss:Width="45"/>
+   <Column ss:Width="56"/>
+   <Column ss:Width="45"/>
+   <Column ss:Width="56"/>
+   <Column ss:Width="45"/>
+   <Column ss:Width="56"/>
+   <Column ss:Width="45"/>
+   <Column ss:Width="56"/>
+   <Column ss:Width="64"/>
+   <Row>
+    <Cell><Data ss:Type="String">Количество по полю Created</Data></Cell>
+    <Cell ss:Index="32"><Data ss:Type="String">Вывод: для приставки &quot;с-&quot; распределение примеров по времени их создания, в основном, не различается, однако периодически наблюдается учащение употребления; для приставки &quot;пере-&quot; распределение примеров по времени их создания, в основном, не различается, однако периодически наблюдается учащение употребления. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">1965&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1966&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1970&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1971&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1974&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1975&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1977&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1979&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1980&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1981&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1984&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1986&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1989&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1991&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1994&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1996&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1998&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1999&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2000&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2001&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2003&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2004&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2005&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2007&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2008&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2009&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2011&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2012&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2015&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Общий итог</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">пере</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">с</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Общий итог</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <LeftColumnVisible>4</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>31</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="спутать.перепутать">
+  <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="51" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="17"/>
+   <Column ss:AutoFitWidth="0" ss:Width="20"/>
+   <Column ss:AutoFitWidth="0" ss:Width="269"/>
+   <Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="263"/>
+   <Row>
+    <Cell><Data ss:Type="String">Reversed left context</Data></Cell>
+    <Cell><Data ss:Type="String">Reversed center</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Left context</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Center</Data></Cell>
+    <Cell><Data ss:Type="String">prefix</Data></Cell>
+    <Cell><Data ss:Type="String">personnumber</Data></Cell>
+    <Cell><Data ss:Type="String">tense </Data></Cell>
+    <Cell><Data ss:Type="String">participant1</Data></Cell>
+    <Cell><Data ss:Type="String">participant2</Data></Cell>
+    <Cell><Data ss:Type="String">participant3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Punct</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Right context</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Title</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Author</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Birthday</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Header</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Created</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Publ_year</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sphere</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Type</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Topic</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Publication</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Medium</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ambiguity</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Full context</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ен&#160;ьтсуп&#160;тичанз&#160;отэ&#160;илИ</Data></Cell>
+    <Cell><Data ss:Type="String">тюатупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;Или это значит ― пусть не </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутают</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">мн. ч.</Data></Cell>
+    <Cell><Data ss:Type="String">будущее</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">одушевленный объект</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">одушевленный объект</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s63"><Data ss:Type="String">с Герхардом Шредером ― такое же&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Ольга Кабанова. Рената Литвинова: «Это очень тяжелый труд ― рассказывать истории» (2001) // «Известия», 2001.08.22&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Ольга Кабанова&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Рената Литвинова: «Это очень тяжелый труд ― рассказывать истории»&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2001&#160;</Data></Cell>
+    <Cell><Data ss:Type="Number">2001</Data></Cell>
+    <Cell><Data ss:Type="String">публицистика ,  нехудожественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">интервью&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">политика и общественная жизнь&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">«Известия»&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">журнал&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Или это значит ― пусть не <B>спутают</B><Font> с ошибкой, вывертом, недоразумением то, что родилось в полном разумении и было зафиксировано безошибочно.  [Владислав Отрошенко. Эссе из книги «Тайная история творений» // «Октябрь», 2001] [омонимия снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ен&#160;мигурд&#160;микак&#160;с&#160;ин</Data></Cell>
+    <Cell><Data ss:Type="String">юатупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;ни с каким другим не </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутаю</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч.</Data></Cell>
+    <Cell><Data ss:Type="String">будущее</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">одушевленный объект</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">неизвестно кто неизвестно с кем&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Н. Леонов, А. Макеев. Ментовская крыша (2004)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Н. Леонов, А. Макеев&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1933&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Ментовская крыша&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2004&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2004&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">роман&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Н. Леонов, А. Макеев. Ментовская крыша&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Мы все ахнули, узнав о нашей современнице, которая, как сказочная красавица, была «батюшкой за морского змия выдана»; но скоро все выяснилось: наша собеседница <B>спутала</B><Font> слова «аллигатор» и «ирригатор», то есть «инженер, заведующий ирригацией, орошением земель».  [Л. В. Успенский. Слово о словах (1971)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ен&#160;овтсещус&#160;еокакин&#160;йыроток&#160;йызугрук</Data></Cell>
+    <Cell><Data ss:Type="String">олатупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;кургузый, который никакое существо не </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутало</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./ср. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">! &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">А. Иорданский. Некопченые копчености // «Химия и жизнь», 1965&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">А. Иорданский&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Некопченые копчености&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1965&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1965&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">публицистика ,  нехудожественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">статья&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">производство, легкая и пищевая промышленность, химическая промышленность&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">«Химия и жизнь»&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Немецкого языка онкель не знал, учил весь вечер, что по-немецки «кашель» будет «хустен», даже записал на листок, а у доктора от волнения записку не нашел, все <B>спутал</B><Font> и опозорился.  [Михаил Гиголашвили. Чертово колесо (2007)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ешьлоб&#160;еще&#160;ытор&#160;ариднамок&#160;еинелвяоП</Data></Cell>
+    <Cell><Data ss:Type="String">олатупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;Появление командира роты еще больше </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутало</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./ср. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">явление</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">одушевленный объект</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">. &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Сергей Таранов. Мстители (1999)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Сергей Таранов&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1948&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Мстители&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1999&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1998&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">роман&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Сергей Таранов. Мстители&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">журнал&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Но теперь коварная огнестрельная рана, храпящий тиф всё сбили и <B>спутали</B><Font>».  [Е. Душечкина, Л. Берсенева. Три века русской ёлки // «Наука и жизнь», 2008] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ен&#160;и&#160;илсе&#160;яаротВ&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">илатупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160; Вторая: если и не </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутали</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">мн. ч.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">одушевленный объект</Data></Cell>
+    <Cell><Data ss:Type="String">одушевленный объект</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">, &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">сама понимаешь с кем.  По&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Екатерина Завершнева. Высотка (2012)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Екатерина Завершнева&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1971&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Высотка&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2012&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2012&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">роман&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Е. Завершнева. Высотка&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">газета&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">  Не <B>спутал</B><Font> с прежними словами,  Ты вдруг сказала мне «люблю»  Почти спокойными губами.  [Борис Панкин. Жди меня // «Общая газета», 1998] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;и&#160;илибс&#160;ёсв&#160;фит&#160;йищяпарх</Data></Cell>
+    <Cell><Data ss:Type="String">илатупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;храпящий тиф всё сбили и </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутали</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">мн. ч.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">процесс</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">названия, особым указом уточнил: «Ежели&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Николай Комолов. Место ссылки ― «Оранжевый город» // «Родина», 2009&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Николай Комолов&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Место ссылки ― «Оранжевый город»&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2009&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2009&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">публицистика, нехудожественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">статья&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">история, администрация и управление&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">«Родина»&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">  Это все равно кто ― грузчик, секретарь Союза писателей, генеральный секретарь партии ― почерк один и тот же, я его легко узнаю, ни с каким другим не <B>спутаю</B><Font>.  [Владимир Соловьев. Три еврея, или Утешение в слезах. Роман с эпиграфами (1975-1998)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ыт&#160;обил&#160;2&#160;V&#160;61</Data></Cell>
+    <Cell><Data ss:Type="String">алатупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;16/V ― № 2; либо ты </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутала</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./ж. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">. &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> Наслаждение красотой мира подавило боль&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Борис Неменский. Живая память // «Родина», 2008&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Борис Неменский&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1922&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Живая память&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2008&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2008&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">публицистика ,  нехудожественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">статья&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">история, армия и вооруженные конфликты, искусство и культура&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">«Родина»&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Вторая: если и не <B>спутали</B><Font>, то на людях не стали брать, а повели куда надо.  [Анатолий Приставкин. Вагончик мой дальний (2005)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ациндесебос&#160;ашан&#160;ьсолинсяыв&#160;есв&#160;орокс</Data></Cell>
+    <Cell><Data ss:Type="String">алатупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;скоро все выяснилось: наша собеседница </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутала</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./ж. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">и смешал их состояния), он&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Нина Садур. Девочка ночью (1981)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Нина Садур&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1950&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Девочка ночью&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1981&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2000&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">повесть&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Садур Н. Чудесные знаки&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">  Этот &quot;порог&quot; <B>спутал</B><Font> все планы Антона Александровича, и он, мрачно восхищаясь, покинул наш дом.  [Анатолий Алексин. Раздел имущества (1979)] [омонимия снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;гороп&#160;тотЭ&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">латупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;  Этот &quot;порог&quot; </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутал</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">предмет</Data></Cell>
+    <Cell><Data ss:Type="String">неодушевленный объект</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">дверь спальни, лег в постель&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Алла Сурикова. Любовь со второго взгляда (2001)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Алла Сурикова&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1940&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Любовь со второго взгляда&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2001&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2002&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">публицистика ,  нехудожественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">мемуары&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">А. Сурикова. Любовь со второго взгляда&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Появление командира роты еще больше <B>спутало</B><Font> карты.  [Виктор Некрасов. Случай на Мамаевом кургане (1965)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;он&#160;тропсап&#160;никоК&#160;ьтищатыв&#160;летох</Data></Cell>
+    <Cell><Data ss:Type="String">латупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;хотел вытащить Кокин паспорт, но </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутал</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">смелость с идиотизмом. &#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Андрей Лазарчук, Михаил Успенский. Посмотри в глаза чудовищ (1996)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Андрей Лазарчук, Михаил Успенский&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1958&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Посмотри в глаза чудовищ&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1996&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1997&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">роман&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">А. Лазарчук. Посмотри в глаза чудовищ&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Если быть точным, то, прежде чем увидеть лицо, я рассмотрел шевелюру человека, ну, эту пепельную шевелюру ― ее ни с одной не <B>спутаешь</B><Font>, ― правда, за эти годы заметно посветлевшую…  [С. А. Дангулов. Эренбург (1981)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;яам&#160;52&#160;радУ&#160;&#160;хакур&#160;в</Data></Cell>
+    <Cell><Data ss:Type="String">латупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;в руках.  Удар 25 мая </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутал</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">явление</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">одушевленный объект</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">меж собой людей, оголодила. &#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Виктор Астафьев. Последний поклон (1968-1991)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Виктор Астафьев&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1924&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Последний поклон&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1991&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1997&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">повесть, рассказ, цикл&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Собрание сочинений в пятнадцати томах. Том 5&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Так, на твоем, Ларка, письме от 30/V (последнем) стоит № 7, а на предыдущем, от 16/V ― № 2; либо ты <B>спутала</B><Font> нумерацию, либо четыре письма потерялись.  [Юлий Даниэль. Письма из заключения (1966-1970)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;но&#160;оН&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">латупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160; Но он </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутал</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">, &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">держал вверх ногами. &#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Виктор Некрасов. Взгляд и Нечто (1977)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Виктор Некрасов&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1911&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Взгляд и Нечто&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1977&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2004&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">повесть&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Виктор Некрасов. Записки зеваки&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">  Зная, что у Васи под всякими перегибами подразумеваются притеснения по пятому пункту анкеты, возразил, что этого не может быть: во-первых, Иванович, во-вторых, у него паспортные данные на лице, не <B>спутаешь</B><Font> ― чистокровный русич.  [Виктор Слипенчук. Зинзивер (2001)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;реграБ&#160;зьлраЧ&#160;неК&#160;йинтел&#160;74</Data></Cell>
+    <Cell><Data ss:Type="String">латупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;47-летний Кен Чарльз Баргер </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутал</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">названия секторов «Б» и «В&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Екатерина Завершнева. Высотка (2012)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Екатерина Завершнева&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1971&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Высотка&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2012&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2012&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">роман&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Е. Завершнева. Высотка&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">газета&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Но 47-летний Кен Чарльз Баргер <B>спутал</B><Font> обычный телефон… с пистолетом.  [Сергей Петрунин. Шутки старушки с косой (2004) // «Амурский Меридиан» (Хабаровск), 2004.12.22] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;есв&#160;лешан&#160;ен&#160;уксипаз&#160;яиненлов</Data></Cell>
+    <Cell><Data ss:Type="String">латупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;волнения записку не нашел, все </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутал</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ли что-нибудь? &#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Л. К. Чуковская. Прочерк (1980-1994)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Л. К. Чуковская&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1907&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Прочерк&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1994&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2009&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">повесть&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Лидия Чуковская. Прочерк&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> В ямке подкладыш ― яйцо, сшитое из белой тряпочки, продолговатый мячик, набитый ватой, угловатый, кургузый, который никакое существо не <B>спутало</B><Font> бы с настоящим куриным яйцом, кроме самой курицы, впрочем, может быть, более снисходительной, нежели неразборчивой и глупой.  [В. А. Солоухин. Смех за левым плечом (1989)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ёсв&#160;конёбер&#160;онченоК&#160;&#160;улкук&#160;икченеЖ</Data></Cell>
+    <Cell><Data ss:Type="String">латупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;Женечки куклу.  Конечно, ребёнок всё </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутал</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">, &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">либо не додумали, либо действовали&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Н. Н. Никулин. Воспоминания о войне (1975)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Н. Н. Никулин&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1923&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Воспоминания о войне&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1975&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2008&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">публицистика ,  нехудожественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">мемуары&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Никулин Н. Н. Воспоминания о войне&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Такую ручку ни с чьей не <B>спутаешь</B><Font>.  [Дина Сабитова. Где нет зимы (2011)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ее&#160;но&#160;меч&#160;с&#160;онсеретнИ</Data></Cell>
+    <Cell><Data ss:Type="String">латупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;Интересно, с чем он ее </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутал</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">неодушевленный объект</Data></Cell>
+    <Cell><Data ss:Type="String">неодушевленный объект</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Прагу с Дрезденом… &#160;</Data></Cell>
+    <Cell><Data ss:Type="String">обобщенный. Автозаводу «Прага» — 70 лет // «Техника - молодежи», 1977&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">обобщенный&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Автозаводу «Прага» — 70 лет&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1977&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1977&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">публицистика ,  нехудожественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">заметка&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">производство, техника, транспорт&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">«Техника - молодежи»&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">  Естественно, Катя была тут не единственная девушка-стрелок, но, к примеру, у Олеси этих проблем не было, поскольку Олеся имела такие ярко выраженные формы ― что сзади, что сбоку, что спереди, ― что даже в одеянии буддийского монаха ее никто с пацаном бы не <B>спутал</B><Font>.  [Марина Зосимкина. Ты проснешься. Книга первая (2015)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;еН&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">латупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;  Не </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутал</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">. &#160;</Data></Cell>
+    <Cell ss:StyleID="s67"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">  ― Это дежурный <B>перепутал</B><Font>.  Я Ильвеса&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">Сергей Довлатов. Компромисс (1981-1984)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Сергей Довлатов&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1941&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Компромисс&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1984&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1999&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">повесть&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">С. Довлатов. Собрание сочинений в 4 томах. Том 1&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">журнал&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Это сегодня хобот ни с чем не <B>спутаешь</B><Font>, а наши предки хоботом называли, например, змеиный хвост: «Обвивается лютый змей около чобота зелен сафьян, около чулочка шелкова, хоботом бьет по белу стегну» (былина «Вольх (В) сеславьевич»).  [В. Рич. Вторая жизнь мамонта, или Откуда у Горыныча хобот // «Химия и жизнь», 1986] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;йонул&#160;с&#160;ецнлос&#160;и&#160;но</Data></Cell>
+    <Cell><Data ss:Type="String">латупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;он и солнце с луной </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутал</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">неодушевленный объект</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">. &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">  ― И с ментами дружить Сережке&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Сергей Таранов. Мстители (1999)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Сергей Таранов&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1948&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Мстители&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1999&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1998&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">роман&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Сергей Таранов. Мстители&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">  ― Это ж… он и солнце с луной <B>спутал</B><Font>?  [Василий Шукшин. Беседы при ясной луне (1972-1974)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ен&#160;ыб&#160;монацап&#160;с&#160;откин</Data></Cell>
+    <Cell><Data ss:Type="String">латупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;никто с пацаном бы не </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутал</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell><Data ss:Type="String">одушевленный объект</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">… &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">  ― Не смей меня так называть&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Татьяна Тронина. Русалка для интимных встреч (2004)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Татьяна Тронина&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Русалка для интимных встреч&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2004&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2004&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">роман&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Татьяна Тронина. Русалка для интимных встреч&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">журнал&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Но он <B>спутал</B><Font> два понятия: тщеславие и достоинство.  [М. Н. Задорнов. Фантазии сатирика (2000) // «Октябрь», 2001] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ен&#160;йеьч&#160;с&#160;ин&#160;укчур</Data></Cell>
+    <Cell><Data ss:Type="String">ьшеатупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;ручку ни с чьей не </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутаешь</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч.</Data></Cell>
+    <Cell><Data ss:Type="String">будущее</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">слова в своем честнейшем, правдивейшем&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Борис Васильев. Оглянись на середине // «Октябрь», 2003&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Борис Васильев&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1924&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Оглянись на середине&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2003&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2003&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">публицистика ,  нехудожественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">автобиография&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">«Октябрь»&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">журнал&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> И девочка играла с Барби ещё несколько дней, пока вся семья не пошла на телепередачу, отобрав у Женечки куклу.  Конечно, ребёнок всё <B>спутал</B><Font>.)   Зал шумел, как море.  [Людмила Петрушевская. Маленькая волшебница // «Октябрь», 1996] [омонимия снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ен&#160;ецил&#160;ан&#160;еыннад&#160;еынтропсап</Data></Cell>
+    <Cell><Data ss:Type="String">ьшеатупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;паспортные данные на лице, не </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутаешь</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч.</Data></Cell>
+    <Cell><Data ss:Type="String">будущее</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">неодушевленный объект</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">. &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> И агроном толковый. &#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Борис Можаев. Петька Барин (1971)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Борис Можаев&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1923&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Петька Барин&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1971&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1977&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">рассказ&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Борис Можаев. Живой. Повесть и рассказы&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Но затем поправился, 27 марта 1922 года сделал на съезде политический отчет ЦК, и все держал в руках.  Удар 25 мая <B>спутал</B><Font> все карты.  И до октября 1922 года Ленин практически был не у дел, и заключение врачей (конечно, секретное, для членов Политбюро, а не для страны) было, что это начало конца.  [Б. Г. Бажанов. Воспоминания бывшего секретаря Сталина (1980)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ен&#160;меч&#160;с&#160;ин&#160;еывопит</Data></Cell>
+    <Cell><Data ss:Type="String">ьшеатупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;типовые, ни с чем не </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутаешь</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч.</Data></Cell>
+    <Cell><Data ss:Type="String">будущее</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">заказы. &#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Марианна Баконина. Девять граммов пластита (2000)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Марианна Баконина&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1964&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Девять граммов пластита&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2000&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2000&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">роман&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Марианна Баконина. Девять граммов пластита&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">  Они типовые, ни с чем не <B>спутаешь</B><Font>.  [Андрей Белянин. Свирепый ландграф (1999)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ен&#160;йондо&#160;с&#160;ин&#160;ее</Data></Cell>
+    <Cell><Data ss:Type="String">ьшеатупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;ее ни с одной не </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутаешь</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч.</Data></Cell>
+    <Cell><Data ss:Type="String">будущее</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">одушевленный объект</Data></Cell>
+    <Cell><Data ss:Type="String">одушевленный объект</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">с Гали Курчи! &#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Татьяна Окуневская. Татьянин день (1998)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Татьяна Окуневская&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1914&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Татьянин день&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1998&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1998&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">публицистика ,  нехудожественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">мемуары&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Татьяна Окуневская. Татьянин день&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">  Нугзар полез в куртку, хотел вытащить Кокин паспорт, но <B>спутал</B><Font> и вытащил свой; тут же спрятал его и вынул Кокин.  [Михаил Гиголашвили. Чертово колесо (2007)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ен&#160;меч&#160;с&#160;ин&#160;тобох</Data></Cell>
+    <Cell><Data ss:Type="String">ьшеатупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;хобот ни с чем не </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутаешь</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч.</Data></Cell>
+    <Cell><Data ss:Type="String">будущее</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">имена братьев, назвавшись дочерью казацкого&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Эдвард Радзинский. Княжна Тараканова (1999)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Эдвард Радзинский&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1936&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Княжна Тараканова&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1999&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1998&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">роман&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Радзинский Э. Собрание сочинений: В 7 т. Т.4&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">журнал&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> В медицинской литературе описан случай, когда человек за один раз «принял» 460 граммов двуокиси титана!  (Интересно, с чем он ее <B>спутал</B><Font>?  ) «Любитель» двуокиси титана не испытал при этом никаких болезненных ощущений.  [Я. Розенцвейг, С. Венецкий. Титан // «Химия и жизнь», 1966] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ьджоД&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">латупс</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;  Дождь </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>спутал</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">с</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">явление</Data></Cell>
+    <Cell><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s63"><Data ss:Type="String">планы премьера   Касьянов полюбил новосибирский&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Елена Лашкина. Дождь спутал планы премьера (2003) // «Российская газета», 2003.04.03&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Елена Лашкина&#160;</Data></Cell>
+    <Cell><Data ss:Type="Number">1971</Data></Cell>
+    <Cell><Data ss:Type="String">Дождь спутал планы премьера&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2003&#160;</Data></Cell>
+    <Cell><Data ss:Type="Number">2003</Data></Cell>
+    <Cell><Data ss:Type="String">публицистика ,  нехудожественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">статья&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">политика и общественная жизнь&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">«Российская газета»&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">газета&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">  Дождь <B>спутал</B><Font> планы премьера   Касьянов полюбил новосибирский хлеб и поругал московских силовиков  [Елена Лашкина. Дождь спутал планы премьера (2003) // «Российская газета», 2003.04.03] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;от-отч&#160;ёом&#160;еинанзосдоП&#160;&#160;итсоннёровтелводуен&#160;ьлоб</Data></Cell>
+    <Cell><Data ss:Type="String">олатупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;боль неудовлетворённости.   Подсознание моё что-то </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутало</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./ср. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">процесс</Data></Cell>
+    <Cell><Data ss:Type="String">неодушевленный объект</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">кувшины.  Ничего. &#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Егор Радов. Змеесос (2003)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Егор Радов&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1964&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Змеесос&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2003&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2003&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">роман&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">В. Козлов. Гопники&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">  ― Я не знаю, как у вас, а в моем стакане была вода, ― ответил Миша.   ― Это несущественно, значит, <B>перепутали</B><Font> кувшины.  Ничего.  [Егор Радов. Змеесос (2003)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;акгелс&#160;ыв&#160;зар&#160;йылшорп&#160;я</Data></Cell>
+    <Cell><Data ss:Type="String">илатупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;я, ― прошлый раз вы слегка </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутали</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">мн. ч.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">. &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Андрей Белянин. Свирепый ландграф (1999)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Андрей Белянин&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1967&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Свирепый ландграф&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1999&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1999&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">роман&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Андрей Белянин. Свирепый ландграф&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Что же, они меня <B>перепутали</B><Font> с Гали Курчи!  [Татьяна Окуневская. Татьянин день (1998)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;от-отч&#160;ыларенег&#160;етрак&#160;оп&#160;алыт</Data></Cell>
+    <Cell><Data ss:Type="String">илатупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;тыла по карте, генералы что-то </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутали</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">мн. ч.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell><Data ss:Type="String">неодушевленный объект</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">все карты.  И до октября&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Б. Г. Бажанов. Воспоминания бывшего секретаря Сталина (1980)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Б. Г. Бажанов&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1900&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Воспоминания бывшего секретаря Сталина&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1980&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1992&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">публицистика, нехудожественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">мемуары&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Борис Бажанов. Воспоминания бывшего секретаря Сталина&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Тот же главный инженер…  Энтот шкворень с шатуном не <B>перепутает</B><Font>.  И агроном толковый.  [Борис Можаев. Петька Барин (1971)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;тичанз&#160;онневтсещусен&#160;отЭ&#160;&#160;ашиМ&#160;литевто</Data></Cell>
+    <Cell><Data ss:Type="String">илатупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;ответил Миша.   ― Это несущественно, значит, </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутали</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">мн. ч.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">, &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">а наши предки хоботом называли&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">В. Рич. Вторая жизнь мамонта, или Откуда у Горыныча хобот // «Химия и жизнь», 1986&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">В. Рич&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Вторая жизнь мамонта, или Откуда у Горыныча хобот&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1986&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1986&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">учебно-научная ,  нехудожественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">статья&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">наука и технологии, филология&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">«Химия и жизнь»&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">журнал&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> К вечеру мне страстно захотелось треснуть его пыльным мешком из-за угла, чтобы он хотя бы <B>перепутал</B><Font> слова в своем честнейшем, правдивейшем, всамделишном рассказе.  [Борис Васильев. Оглянись на середине // «Октябрь», 2003] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;янем&#160;ино&#160;еж&#160;отЧ&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">илатупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160; Что же, они меня </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутали</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">мн. ч.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell><Data ss:Type="String">неодушевленный объект</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">? &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Василий Шукшин. Беседы при ясной луне (1972-1974)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Василий Шукшин&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1929&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Беседы при ясной луне&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1974&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2003&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">рассказ&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Василий Шукшин. Собрание сочинений (в 3 томах), т2&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Но она, видимо, <B>перепутала</B><Font> имена братьев, назвавшись дочерью казацкого гетмана.  [Эдвард Радзинский. Княжна Тараканова (1999)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ынитерк&#160;итэ&#160;огесв&#160;еерокС&#160;&#160;кадум</Data></Cell>
+    <Cell><Data ss:Type="String">илатупереп</Data></Cell>
+    <Cell ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B><Font html:Color="#FFFFFF">мудак</Font></B><Font>?  Скорее всего, эти кретины </Font></ss:Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутали</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">мн. ч.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">.) &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">  Зал шумел, как море. &#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Людмила Петрушевская. Маленькая волшебница // «Октябрь», 1996&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Людмила Петрушевская&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1938&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Маленькая волшебница&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1996&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1996&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">роман&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">«Октябрь»&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Редкий случай в Петербурге, где ресторанов больше, чем людей, готовых заплатить тридцать долларов за плохо приготовленный бифштекс, дополненный скудной горсткой неумело обжаренной картошки, а потом еще выложить приличные чаевые официанту, который все время забывал менять пепельницы, опрокинул бокал и <B>перепутал</B><Font> заказы.  [Марианна Баконина. Девять граммов пластита (2000)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ыцйибу&#160;отч&#160;теагалопдерп&#160;еивтсделС&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">илатупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160; Следствие предполагает, что убийцы </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутали</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">мн. ч.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">два понятия: тщеславие и достоинство&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">М. Н. Задорнов. Фантазии сатирика (2000) // «Октябрь», 2001&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">М. Н. Задорнов&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1948&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Фантазии сатирика&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2000&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2001&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">публицистика ,  нехудожественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">статья&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">политика и общественная жизнь&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">«Октябрь»&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Она уж боялась, не <B>перепутала</B><Font> ли что-нибудь?  [Л. К. Чуковская. Прочерк (1980-1994)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ыбокя&#160;икищворидрабмоб&#160;еикснакиремА&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">илатупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160; Американские бомбардировщики якобы </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутали</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">мн. ч.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">и вытащил свой; тут же&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Михаил Гиголашвили. Чертово колесо (2007)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Михаил Гиголашвили&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1954&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Чертово колесо&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2007&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2009&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">роман&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">М. Гиголашвили. Чертово колесо&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">  ― Видно, ты <B>перепутал</B><Font>.   ― Это дежурный </Font><B>перепутал</B><Font>.  Я Ильвеса в глаза не видел.  [Сергей Довлатов. Компромисс (1981-1984)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;янеМ&#160;&#160;ииняотсос&#160;мовзертен&#160;в&#160;ежад</Data></Cell>
+    <Cell><Data ss:Type="String">илатупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;даже в нетрезвом состоянии.  Меня </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутали</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">мн. ч.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">? &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> ) «Любитель» двуокиси титана не испытал&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Я. Розенцвейг, С. Венецкий. Титан // «Химия и жизнь», 1966&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Я. Розенцвейг, С. Венецкий&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Титан&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1966&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1966&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">учебно-научная ,  нехудожественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">статья&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">наука и технологии, химия, производство&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">«Химия и жизнь»&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Адюльтер, ворвавшийся в его жизнь в Голландии, должен был стать случайным и скорее смешным, нежели мелодраматичным: в не слишком трезвом состоянии он <B>перепутал</B><Font> дверь спальни, лег в постель, исполнил супружеский долг ― оказалось, НЕ свой.  [Алла Сурикова. Любовь со второго взгляда (2001)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;олз&#160;и&#160;орбод&#160;алашемс&#160;исуР</Data></Cell>
+    <Cell><Data ss:Type="String">алатупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;Руси, смешала добро и зло, </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутала</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./ж. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">неодушевленный объект</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">бы с настоящим куриным яйцом&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">В. А. Солоухин. Смех за левым плечом (1989)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">В. А. Солоухин&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1924&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Смех за левым плечом&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1989&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1989&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">повесть&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Солоухин В. А. Смех за левым плечом: Книга прозы&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Следствие предполагает, что убийцы <B>перепутали</B><Font> названия секторов «Б» и «В».  [Екатерина Завершнева. Высотка (2012)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;омидив&#160;ано&#160;оН&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">алатупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160; Но она, видимо, </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутала</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./ж. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> ― &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">чистокровный русич. &#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Виктор Слипенчук. Зинзивер (2001)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Виктор Слипенчук&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1941&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Зинзивер&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2001&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2001&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">роман&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Виктор Слипенчук. Зинзивер&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">  ― О чем ты?  Господи, Илюшка, ты, наверное, что-нибудь <B>перепутал</B><Font>…   ― Не смей меня так называть!  [Татьяна Тронина. Русалка для интимных встреч (2004)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ен&#160;ыб&#160;анелА&#160;имактелолам&#160;с</Data></Cell>
+    <Cell><Data ss:Type="String">алатупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;с малолетками Алена бы не </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутала</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./ж. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">одушевленный объект</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">. &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Дина Сабитова. Где нет зимы (2011)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Дина Сабитова&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1969&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Где нет зимы&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2011&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2007&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">повесть&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Д. Р. Сабитова. Цирк в шкатулке&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> ― Зачем же тогда он приперся, <B><Font
+        html:Color="#FFFFFF">мудак</Font></B><Font>?  Скорее всего, эти кретины </Font><B>перепутали</B><Font>.   ― И с ментами дружить Сережке никак нельзя, ― сказал Гаврилыч.  [Сергей Таранов. Мстители (1999)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;онняачен&#160;я&#160;огороток&#160;мореждниссиК&#160;ирнеГ</Data></Cell>
+    <Cell><Data ss:Type="String">алатупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;Генри Киссинджером, которого я нечаянно </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутала</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./ж. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">. &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Марина Зосимкина. Ты проснешься. Книга первая (2015)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Марина Зосимкина&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Ты проснешься. Книга первая&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2015&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2015&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">роман&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">М. Зосимкина. Ты проснешься. Монреаль: Accent Graphics Communications&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Он был вдребезину пьян, никак не мог найти очки, рассыпал листочки, долго собирал, <B>перепутал</B><Font>, держал вверх ногами.  [Виктор Некрасов. Взгляд и Нечто (1977)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ен&#160;ьсаляоб&#160;жу&#160;анО&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">алатупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160; Она уж боялась, не </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутала</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./ж. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell><Data ss:Type="String">неодушевленный объект</Data></Cell>
+    <Cell><Data ss:Type="String">неодушевленный объект</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">обычный телефон… с пистолетом. &#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Сергей Петрунин. Шутки старушки с косой (2004) // «Амурский Меридиан» (Хабаровск), 2004.12.22&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Сергей Петрунин&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Шутки старушки с косой&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2004&#160;</Data></Cell>
+    <Cell><Data ss:Type="Number">2004</Data></Cell>
+    <Cell><Data ss:Type="String">публицистика ,  нехудожественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">статья&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">политика и общественная жизнь&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">«Амурский Меридиан» (Хабаровск)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Отдав приказ из глубокого тыла по карте, генералы что-то <B>перепутали</B><Font>, либо не додумали, либо действовали левой ногой.  [Н. Н. Никулин. Воспоминания о войне (1975)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;от-отк&#160;ацинатуп&#160;алшозиорп&#160;отдуб&#160;как</Data></Cell>
+    <Cell><Data ss:Type="String">латупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;как будто произошла путаница, кто-то </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутал</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell><Data ss:Type="String">неодушевленный объект</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">все планы Антона Александровича, и&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Анатолий Алексин. Раздел имущества (1979)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Анатолий Алексин&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1924&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Раздел имущества&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1979&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1980&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">повесть&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Собр. соч.: В 3 тт. Т. 2&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">  Коллективизация в нашем селе, как и всюду по Руси, смешала добро и зло, <B>перепутала</B><Font> меж собой людей, оголодила.  [Виктор Астафьев. Последний поклон (1968-1991)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ларибос&#160;оглод&#160;икчотсил&#160;лапыссар&#160;икчо</Data></Cell>
+    <Cell><Data ss:Type="String">латупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;очки, рассыпал листочки, долго собирал, </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутал</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">, &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">то на людях не стали&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Анатолий Приставкин. Вагончик мой дальний (2005)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Анатолий Приставкин&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1931&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Вагончик мой дальний&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2005&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2005&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">повесть&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">«Октябрь»&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">  ― Виктор, ― сказал я, ― прошлый раз вы слегка <B>перепутали</B><Font> смелость с идиотизмом.  [Андрей Лазарчук, Михаил Успенский. Посмотри в глаза чудовищ (1996)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;но&#160;ииняотсос&#160;мовзерт&#160;мокшилс&#160;ен</Data></Cell>
+    <Cell><Data ss:Type="String">латупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;не слишком трезвом состоянии он </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутал</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell><Data ss:Type="String">одушевленный объект</Data></Cell>
+    <Cell><Data ss:Type="String">неодушевленный объект</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">с прежними словами,  Ты вдруг&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Борис Панкин. Жди меня // «Общая газета», 1998&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Борис Панкин&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1931&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Жди меня&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1998&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1998&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">публицистика ,  нехудожественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">статья&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">искусство и культура&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">«Общая газета»&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">журнал&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Американские бомбардировщики якобы <B>перепутали</B><Font> Прагу с Дрезденом…  [обобщенный. Автозаводу «Прага» — 70 лет // «Техника - молодежи», 1977] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ен&#160;яинеджоворпос&#160;рецифо&#160;ыбад&#160;йачулс</Data></Cell>
+    <Cell><Data ss:Type="String">латупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;случай, дабы офицер сопровождения не </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутал</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell><Data ss:Type="String">неодушевленный объект</Data></Cell>
+    <Cell><Data ss:Type="String">неодушевленный объект</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">карты. &#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Виктор Некрасов. Случай на Мамаевом кургане (1965)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Виктор Некрасов&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1911&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Случай на Мамаевом кургане&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1965&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2004&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">рассказ&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Виктор Некрасов. Записки зеваки&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Она вскрикнула и раздула ноздри, предвкушая запах освобожденной крови, она шагнула к нему, но он попятился (как будто произошла путаница, кто-то <B>перепутал</B><Font> и смешал их состояния), он попятился, а она неумолимо приближалась к нему, но в следующий миг из-за ее спины выползла рычащая громада (как ее страшная душа, нет, как ее злой гений-разрушитель, о нет, нет, как вся ее всплывшая, наконец, преступность),и  встала громада поперек дороги.  [Нина Садур. Девочка ночью (1981)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ьдубин-отч&#160;еонреван&#160;ыт&#160;акшюлИ&#160;идопсоГ</Data></Cell>
+    <Cell><Data ss:Type="String">латупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;Господи, Илюшка, ты, наверное, что-нибудь </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутал</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">. &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Владимир Соловьев. Три еврея, или Утешение в слезах. Роман с эпиграфами (1975-1998)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Владимир Соловьев&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1942&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Три еврея, или Утешение в слезах. Роман с эпиграфами&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1998&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2002&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">роман&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Владимир Соловьев. Три еврея, или Утешение в слезах. Роман с эпиграфами&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">журнал&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Но нарастала боль неудовлетворённости.   Подсознание моё что-то <B>перепутало</B><Font>.  Наслаждение красотой мира подавило боль, подавило всю многосложность проблемы.  [Борис Неменский. Живая память // «Родина», 2008] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ыт&#160;ондиВ&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">латупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;  ― Видно, ты </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутал</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">процесс</Data></Cell>
+    <Cell><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">». &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Е. Душечкина, Л. Берсенева. Три века русской ёлки // «Наука и жизнь», 2008&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Е. Душечкина, Л. Берсенева&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Три века русской ёлки&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2008&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2008&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">публицистика ,  нехудожественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">статья&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">история&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">«Наука и жизнь»&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">журнал&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Поэтому Кабинет министров на всякий случай, дабы офицер сопровождения не <B>перепутал</B><Font> названия, особым указом уточнил: «Ежели вы разумеете Оренбург тот, что на Яике… в том ошибаетесь, ибо сей, до которого вы отправлены, Ораниенбурх, отстоящий от Скопина в 60 или 70-ти верстах».  [Николай Комолов. Место ссылки ― «Оранжевый город» // «Родина», 2009] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ыб&#160;ятох&#160;но&#160;ыботч&#160;алгу</Data></Cell>
+    <Cell><Data ss:Type="String">латупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;угла, чтобы он хотя бы </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутал</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">и опозорился. &#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Михаил Гиголашвили. Чертово колесо (2007)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Михаил Гиголашвили&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1954&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Чертово колесо&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2007&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2009&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">художественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">роман&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">М. Гиголашвили. Чертово колесо&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> А если честно, то мне хотели заплатить за услуги, которые я вряд ли смогла бы оказать даже в нетрезвом состоянии.  Меня <B>перепутали</B><Font>, сама понимаешь с кем.  По пьяни, конечно, но все равно неприятно.  [Екатерина Завершнева. Высотка (2012)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;оге&#160;отч&#160;мот&#160;о&#160;авеесилЕ</Data></Cell>
+    <Cell><Data ss:Type="String">латупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;Елисеева о том, что его </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутал</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">, ― &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">правда, за эти годы заметно&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">С. А. Дангулов. Эренбург (1981)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">С. А. Дангулов&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1912&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Эренбург&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1981&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1987&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">публицистика, нехудожественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">мемуары&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">политика и общественная жизнь, искусство и культура&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Дангулов Савва. Художники. Литературные портреты. М.: Советский писатель, 1987&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> ― Но я думаю, что гоблинов с малолетками Алена бы не <B>перепутала</B><Font>.  [Сергей Таранов. Мстители (1999)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ен&#160;хяпоротв&#160;ьретоп&#160;иксипс&#160;яялватсос</Data></Cell>
+    <Cell><Data ss:Type="String">латупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;составляя списки потерь, второпях не </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутал</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">прошедшее</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">абстрактный объект</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">нумерацию, либо четыре письма потерялись&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Юлий Даниэль. Письма из заключения (1966-1970)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Юлий Даниэль&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1925&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Письма из заключения&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1970&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2000&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">бытовая ,  нехудожественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">письмо личное&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">частная жизнь&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Юлий Даниэль. «Я всё сбиваюсь на литературу…» Письма из заключения. Стихи&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">журнал&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Только внимательно следите, в какую бумагу вам завернут опытную колбасу, а в какую ― обыкновенную.  Иначе обязательно <B>перепутаете</B><Font>!  [А. Иорданский. Некопченые копчености // «Химия и жизнь», 1965] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;оньлетазябо&#160;ечанИ&#160;&#160;юунневонкыбо&#160;юукак&#160;в</Data></Cell>
+    <Cell><Data ss:Type="String">етеатупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;в какую ― обыкновенную.  Иначе обязательно </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутаете</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">мн. ч.</Data></Cell>
+    <Cell><Data ss:Type="String">будущее</Data></Cell>
+    <Cell><Data ss:Type="String">лицо</Data></Cell>
+    <Cell><Data ss:Type="String"> абстрактный объект</Data></Cell>
+    <Cell><Data ss:Type="String">неодушевленный объект</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">слова «аллигатор» и «ирригатор», то&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Л. В. Успенский. Слово о словах (1971)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Л. В. Успенский&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1900&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Слово о словах&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1971&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1971&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">учебно-научная, нехудожественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">монография&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">наука и технологии,  филология&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Л. В. Успенский. Слово о словах (Очерки о языке)&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">книга&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Слова Елисеева о том, что его <B>перепутал</B><Font> неизвестно кто неизвестно с кем, Гуров расценивал как детский лепет.  [Н. Леонов, А. Макеев. Ментовская крыша (2004)] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&#160;ен&#160;монуташ&#160;с&#160;ьнеровкш&#160;тотнЭ</Data></Cell>
+    <Cell><Data ss:Type="String">театупереп</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&#160;Энтот шкворень с шатуном не </Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">&#160;<B>перепутает</B><Font>&#160;</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">пере</Data></Cell>
+    <Cell><Data ss:Type="String">ед. ч./м. р.</Data></Cell>
+    <Cell><Data ss:Type="String">будущее</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">неодушевленный объект</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"> &#160;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">с ошибкой, вывертом, недоразумением то&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Владислав Отрошенко. Эссе из книги «Тайная история творений» // «Октябрь», 2001&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Владислав Отрошенко&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">1959&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">Эссе из книги «Тайная история творений»&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2001&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">2001&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">публицистика, нехудожественная&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">эссе&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">искусство и культура&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">«Октябрь»&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">газета&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">омонимия не снята</Data></Cell>
+    <Cell ss:StyleID="s66"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"> Я вот в последнее время попала только на встречу с господином Генри Киссинджером, которого я нечаянно <B>перепутала</B><Font> с Герхардом Шредером ― такое же сложное имя.  [Ольга Кабанова. Рената Литвинова: «Это очень тяжелый труд ― рассказывать истории» (2001) // «Известия», 2001.08.22] [омонимия не снята]</Font></ss:Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Zoom>63</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>5</ActiveCol>
+     <RangeSelection>C6:C25</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
